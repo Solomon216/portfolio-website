@@ -11,7 +11,7 @@ const icons = [
 
 export default function Contact(){
     return(
-        <div className=" bg-black/75 rounded-xl backdrop-blur-[100px] w-fit justify-center items-center align-middle inline-flex flex-col mt-[100px] p-6 pb-[100px]">
+        <div className=" bg-black/75 rounded-xl backdrop-blur-[100px] w-fit justify-center items-center align-middle inline-flex flex-col mt-[100px] p-6 ">
             <h1 className="text-2xl font-bold text-white">Contact Me</h1>
             <div className="inline-flex flex-col gap-4 mt-7">
                 <a href="/" className="rounded-lg flex gap-3 bg-gray-700 w-[200px] justify-center items-center p-4">
