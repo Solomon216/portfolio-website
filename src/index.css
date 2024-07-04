@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("./images/assests/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 430px) {
+  body {
+    background-image: url("./images/assests/brandon-erlinger-ford-hs1wQm2_tBA-unsplash.jpg");
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .desktop_nav{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 430px) {
+  .mobile_nav{
+    display:none;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "product";
+  src: url("./fonts/Product.ttf");
+}
+
+.prod{
+  font-family: "product";
+}
+
+@font-face {
+  font-family: "futura";
+  src: url("./fonts/FUTURA55REGULAR.TTF");
+}
+
+.futura{
+  font-family: "futura";
+}
+
+@font-face {
+  font-family: "League";
+  src: url("./fonts/LeagueSpartan-ExtraBold.ttf");
+}
+
+.league{
+  font-family: "League";
+}
+
+@font-face {
+  font-family: "LM";
+  src: url("./fonts/LemonMilk.otf");
+}
+
+.lemon{
+  font-family: "LM";
+}
+
+@font-face {
+  font-family: "mons";
+  src: url("./fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+.mons{
+  font-family: "mons";
+}
