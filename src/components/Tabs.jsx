@@ -14,7 +14,7 @@ export default function Tabs({ setCurrentComponent }) {
   };
 
   return (
-    <div className="bg-white/45 rounded-xl backdrop-blur-[100px] w-fit justify-center items-center align-middle inline-flex flex-col mt-[100px] p-6">
+    <div className="bg-white/45 rounded-xl backdrop-blur-[100px] w-fit justify-center items-center align-middle inline-flex flex-col mt-[100px] p-6 pb-[150px]">
       <div className="inline-flex flex-col gap-4">
         {tabs.map((tab, index) => (
           <div key={index} onClick={() => handleClick(tab.comp)} className="text-2xl text-white bg-slate-700 rounded-md p-6 cursor-pointer">{tab.name}</div>
