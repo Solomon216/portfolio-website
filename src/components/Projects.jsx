@@ -55,7 +55,7 @@ export default function Projects(){
             <div className="bg-[#212121] p-12 max-[435px]:p-6 mt-5 rounded-lg mx-[60px]">
                 <div>
                     <h1 className="lemon text-white text-6xl max-[435px]:text-3xl">Projects</h1>
-                    <div className="flex flex-wrap gap-[30px] mt-7">
+                    <div className="flex flex-wrap justify-center items-center gap-[30px] mt-7">
                         {
                             projects_info.map((project)=>{
                             return(
