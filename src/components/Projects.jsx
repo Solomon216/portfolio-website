@@ -51,7 +51,7 @@ const projects_info=[
 
 export default function Projects(){
     return(
-        <div className="h-full w-full bg-black/25 flex flex-col justify-center items-center pb-[60px]">
+        <div className="h-full w-full bg-black/25 flex flex-col justify-center items-center pb-[100px]">
             <div className="bg-[#212121] p-12 max-[435px]:p-6 mt-5 rounded-lg mx-[60px]">
                 <div>
                     <h1 className="lemon text-white text-6xl max-[435px]:text-3xl">Projects</h1>
