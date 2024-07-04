@@ -19,7 +19,7 @@ export default function MobileMenu({ setCurrentComponent }) {
   };
 
   return (
-    <div className="mobile_nav fixed bottom-14 left-0 w-full">
+    <div className="mobile_nav fixed bottom-14 left-0 w-full pb-[250px]">
       <div className="grid grid-cols-4 justify-items-center mb-3">
         {
             images.map((image, index) => {
