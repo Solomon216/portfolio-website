@@ -17,8 +17,10 @@ body {
 @media screen and (max-width: 430px) {
   body {
     background-image: url("./images/assests/brandon-erlinger-ford-hs1wQm2_tBA-unsplash.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
   }
 }
 
