@@ -5,7 +5,7 @@ const services=["Web Development","Python Development","Machine Learning","Compu
 export default function Profile(){
     return(
         <div className="h-full w-full bg-black/25 flex flex-col justify-center items-center p-9 pb-[110px]">
-            <div className="w-[700px] max-[435px]:w-[400px] bg-black rounded-xl backdrop-blur-[100px] p-6 max-[435px]:p-3">
+            <div className="w-[700px] max-[435px]:flex bg-black rounded-xl backdrop-blur-[100px] p-6 max-[435px]:p-3">
                 <h1 className="text-white text-4xl max-[435px]:text-xl">About Me</h1>
                 <p className="text-white text-lg futura mt-6 opacity-80">I am a versatile professional with a unique blend of skills in full-stack development, data analysis, computer vision engineering, and UI design. With a passion for crafting innovative solutions, I excel in both the technical and creative aspects of technology. Whether it's building robust web applications, extracting valuable insights from data, creating visually stunning user interfaces, or developing cutting-edge computer vision systems, I am committed to delivering excellence in every project I undertake. My diverse skill set allows me to bridge the gap between data-driven insights and user-centric design, resulting in impactful and user-friendly solutions that drive success.</p>
             </div>
