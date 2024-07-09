@@ -6,6 +6,7 @@ import MongoDB from "../images/skills/mongodb.png"
 import HTML from "../images/skills/html.png"
 import CSS from "../images/skills/css.png"
 import JavaScript from "../images/skills/javascript.png"
+import TypeScript from "../images/skills/typescript.png"
 import Tailwind from "../images/skills/tailwind.png"
 import Nextjs from "../images/skills/nextjs.svg"
 import Opencv from "../images/skills/opencv.png"
@@ -24,6 +25,7 @@ const tech_icons=[
     {name:"CSS",image:CSS},
     {name:"Tailwind CSS",image:Tailwind},
     {name:"JavaScript",image:JavaScript},
+    {name:"TypeScript",image:TypeScript},
     {name:"React",image:React},
     {name:"Next.js",image:Nextjs},
     {name:"Node",image:Node},
